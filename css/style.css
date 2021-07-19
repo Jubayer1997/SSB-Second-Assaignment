@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+header{
+       
+     
+     }     
+
+ .announcement{
+   background-color: orange;
+     padding: 15px 30px;
+ }
+.announcement p{
+  color: whitesmoke;
+   margin: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+   }
+
+.menu{
+  border-bottom: #ffa500 dashed 1px
+}
+
+ol{
+    margin: 0;
+    text-align: center;
+    /* display: inline-block; */
+    padding: 10px 0;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+        font-size: 22px;
+    color: orange;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 20px;
+    
+   border: #ffa500 dashed 2px;
+transition-duration:0.4s ;
+
+}
+a:hover
+{
+      border-left: #ffa50000 dashed 2px;
+    border-right: #ffa5000f dashed 2px;
+ background-color:orange ;
+  color: red;
+
+
+}
+
+.banner-section{
+    padding: 50px 0;
+    background-color: #ff98001a;
+}
+.banner{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner img{
+        max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 50px 0 #00000080;
+tarnsition:all 0.3s ease ;
+
+}
+
+.banner img:hover{
+
+  box-shadow: 0 0 0 0 #00000080;
+}
+.content-section{
+    padding: 70px 0;
+}
+.content{
+    width: 60%;
+    margin: auto;
+}
+.content h1{
+  font-size: 60px;
+color: orange;
+margin: 0;
+}
+  
+  .content p{
+    font-size: 20px;
+  }
